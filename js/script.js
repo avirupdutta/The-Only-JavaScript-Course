@@ -1,13 +1,14 @@
-// var x;
-// x = 1000;
-// console.log("x = " + x);
-// var x = "Hi";
-// console.log("x = " + x);
+var age1 = 10;
+var age2 = 20;
+var num = 15;
 
-1, 2, 3, 4
-1.5, 51.3698752
-var x = "This is javascript";
-console.log(x);
+var age3 = age2 % age1; // 20 / 10 = q->2 r->0
+console.log(age3);
 
-
-
+/*
+  +
+  -
+  *
+  /
+  %
+*/
