@@ -1,13 +1,28 @@
-// var x;
-// x = 1000;
-// console.log("x = " + x);
-// var x = "Hi";
-// console.log("x = " + x);
+// Topic -  Control Flow in JS
+/**
+ * 1) if else
+ * 2) switch case
+ * 3) Ternary operator
+ */
 
-1, 2, 3, 4
-1.5, 51.3698752
-var x = "This is javascript";
-console.log(x);
+// if (age >= 18) {
+// 	var name = "Avirup ";
+// 	console.log(name + age);
+// }
 
+// if (age >= 18 && age <= 25) {
+// 	console.log(age);
+// }
 
+// if (age <= 18 || age >= 25) {
+// 	console.log(age);
+// }
 
+var age = 10;
+if (age >= 60) {
+	console.log("You are a senior citizen");
+} else if (age >= 18) {
+	console.log("You are an adult");
+} else {
+	console.log("You are not an adult");
+}
